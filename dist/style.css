@@ -1,0 +1,74 @@
+* {
+  text-align: center;
+}
+
+body {
+  font-family: "Roboto Mono", monospace;
+  min-height: 400px;
+  background-image: url("https://i.pinimg.com/originals/cc/9e/30/cc9e30d33f93d11591b2b5f27c2eba78.jpg");
+  background-color: #111;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+table {
+  border: 2px solid white;
+  border-collapse: collapse;
+}
+
+h1 {
+  color: white;
+}
+
+th,
+tr,
+td {
+  border: solid 1px white;
+  color: white;
+}
+
+#resetarFilme {
+  border: 40;
+  color: #da1e26;
+  background: #da1e26;
+  font-weight: bold;
+  padding: 10px 10px;
+  font-size: 20px;
+  border-radius: 4px;
+  margin-top: 30px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+img {
+  max-width: 50px;
+  max-height: 50px;
+}
